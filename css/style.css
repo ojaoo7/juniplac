@@ -54,8 +54,15 @@ footer a {
 button {
     background: #f06;
     color: white;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
-    border-style: none;
+    border: none;
     font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #f30;
+    transform: scale(1.1)   
 }
